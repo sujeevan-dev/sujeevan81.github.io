@@ -7,9 +7,8 @@ body{
   line-height: 1.8;
 }
 
-.navbar-brand h2{
-  font-family: Lilita One, cursive;
-  color: #18bc9c;
+.navbar{
+	font-size: 1.3rem;
 }
 
 .bg-1{
@@ -20,5 +19,5 @@ body{
 }
 
 #profile{
-	padding: 1.8rem;
+	padding: 0.8rem;
 }
