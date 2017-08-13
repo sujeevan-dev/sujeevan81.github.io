@@ -21,3 +21,12 @@ body{
 #profile{
 	padding: 0.8rem;
 }
+
+header h5{
+	color: #607d8b;
+}
+
+.btn-outline-secondary{
+	margin-top: 0.5rem;
+	color: #fff;
+}
