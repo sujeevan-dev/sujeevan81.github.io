@@ -35,3 +35,12 @@ header h5{
 	background-color: #ffffff;
 	padding: 2rem 0.5rem;
 }
+
+
+
+/*Media Queries*/
+ @media (max-width: 767px) {
+    .navbar .container {
+      width: 100%;
+    }
+  }
