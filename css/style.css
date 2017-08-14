@@ -11,7 +11,7 @@ body{
 	font-size: 1.1rem;
 }
 
-.bg-1{
+#bg-1{
   background-color: #00bcd4;
   text-align: center;
   padding: 1.0rem;
@@ -24,7 +24,7 @@ body{
 
 header h3{
 	font-family: 'Hammersmith One', sans-serif;
-	color: #ffffff !important;
+	color: #ffffff;
 }
 
 header h5{
@@ -41,8 +41,8 @@ header h5{
 	padding: 2rem 0.5rem;
 }
 
-h3{
-	color: #00bcd4 !important;
+#bg-2 h3{
+	color: #ffffff;
 }
 
 .fa{
@@ -50,13 +50,15 @@ h3{
 }
 
 #bg-2{
-	background-color: #f7f7f7;
+	background-color: #00bcd4;
 }
 
-#doughnut,#doughnut2,#doughnut3,#doughnut4{
+/*Skills circles*/
+#doughnut1,#doughnut2,#doughnut3,#doughnut4,#doughnut5,#doughnut6,#doughnut7,#doughnut8{
   position: absolute;
 }
-#skill1,#skill2,#skill3,#skill4{
+
+#skill1,#skill2,#skill3,#skill4,#skill5,#skill6,#skill7,#skill8{
   position: relative;
 }
 
