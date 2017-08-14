@@ -8,7 +8,7 @@ body{
 }
 
 .navbar{
-	font-size: 1.2rem;
+	font-size: 1.1rem;
 }
 
 .bg-1{
@@ -22,8 +22,12 @@ body{
 	padding: 0.8rem;
 }
 
+header h3{
+	font-family: 'Hammersmith One', sans-serif;
+}
+
 header h5{
-	color: #607d8b;
+	color: #000000;
 }
 
 .btn-outline-secondary{
@@ -36,7 +40,13 @@ header h5{
 	padding: 2rem 0.5rem;
 }
 
+#about h3{
+	color: #00bcd4;
+}
 
+.fa{
+	color: #00bcd4;
+}
 
 /*Media Queries*/
  @media (max-width: 767px) {
