@@ -24,6 +24,7 @@ body{
 
 header h3{
 	font-family: 'Hammersmith One', sans-serif;
+	color: #ffffff !important;
 }
 
 header h5{
@@ -40,12 +41,23 @@ header h5{
 	padding: 2rem 0.5rem;
 }
 
-#about h3{
-	color: #00bcd4;
+h3{
+	color: #00bcd4 !important;
 }
 
 .fa{
 	color: #00bcd4;
+}
+
+#bg-2{
+	background-color: #f7f7f7;
+}
+
+#doughnut,#doughnut2,#doughnut3,#doughnut4{
+  position: absolute;
+}
+#skill1,#skill2,#skill3,#skill4{
+  position: relative;
 }
 
 /*Media Queries*/
