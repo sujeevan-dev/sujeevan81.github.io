@@ -264,3 +264,8 @@ window.onload = function() {
     loadSkills7();
     loadSkills8();
   }
+
+  // Tabs
+ $(function () {
+    $('#myTab a:last').tab('show')
+  })
