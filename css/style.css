@@ -53,6 +53,14 @@ header h5{
 	background-color: #00bcd4;
 }
 
+.row{
+	padding: 1.2rem 0;
+}
+
+.tab-pane img{
+	border-radius: 10px;
+}
+
 /*Skills circles*/
 #doughnut1,#doughnut2,#doughnut3,#doughnut4,#doughnut5,#doughnut6,#doughnut7,#doughnut8{
   position: absolute;
