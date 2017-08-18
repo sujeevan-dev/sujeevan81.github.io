@@ -1,72 +1,78 @@
-html{
+html {
 	font-size: 16px;
 }
 
-body{
+body {
   font-family: Montserrat, sans-serif;
   line-height: 1.8;
 }
 
-.navbar{
+.navbar {
 	font-size: 1.1rem;
 }
 
-#bg-1{
+#bg-1 {
   background-color: #00bcd4;
   text-align: center;
   padding: 1.0rem;
   color: #ffffff;
 }
 
-#profile{
+#profile {
 	padding: 0.8rem;
 }
 
-header h3{
+header h3 {
 	font-family: 'Hammersmith One', sans-serif;
 	color: #ffffff;
 }
 
-header h5{
+header h5 {
 	color: #000000;
 }
 
-.btn-outline-secondary{
+.btn-outline-secondary {
 	margin-top: 0.5rem;
 	color: #fff;
 }
 
-#about{
+#about {
 	background-color: #ffffff;
 	padding: 2rem 0.5rem;
 }
 
-#bg-2 h3{
+#bg-2 h3 {
 	color: #ffffff;
+	padding: 0.9rem 0;
 }
 
-.fa{
+.fa {
 	color: #00bcd4;
 }
 
-#bg-2{
+#bg-2 {
 	background-color: #00bcd4;
 }
 
-.row{
+.heading {
+	color: #00bcd4;
+	padding: 0.9rem 0;
+}
+
+.row {
 	padding: 1.2rem 0;
 }
 
-.tab-pane img{
+.tab-pane img {
 	border-radius: 10px;
 }
 
 /*Skills circles*/
-#doughnut1,#doughnut2,#doughnut3,#doughnut4,#doughnut5,#doughnut6,#doughnut7,#doughnut8{
+#doughnut1,#doughnut2,#doughnut3,#doughnut4,#doughnut5,#doughnut6,#doughnut7,#doughnut8 {
   position: absolute;
 }
 
-#skill1,#skill2,#skill3,#skill4,#skill5,#skill6,#skill7,#skill8{
+#skill1,#skill2,#skill3,#skill4,#skill5,#skill6,#skill7,#skill8 {
   position: relative;
 }
 
