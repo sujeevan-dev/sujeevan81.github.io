@@ -97,6 +97,13 @@ header h5 {
 	padding: 2rem;
 }
 
+footer h3 {
+	color:  #ffffff !important;
+}
+
+footer {
+	background-color: #607D8B;
+}
 
 /*Media Queries*/
  @media (max-width: 767px) {
