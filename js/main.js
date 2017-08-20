@@ -265,7 +265,4 @@ window.onload = function() {
     loadSkills8();
   }
 
-  // Tabs
- $(function () {
-    $('#myTab a:last').tab('show')
-  })
+ 
