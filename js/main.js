@@ -266,3 +266,6 @@ window.onload = function() {
   }
 
  
+$('#title').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+  $(this).css({"color":"#607D8B", "font-size":"120%", "font-weight": "bold"});
+});

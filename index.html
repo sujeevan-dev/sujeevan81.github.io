@@ -29,32 +29,32 @@
   <body>
     <!--Navigation-->
     <nav class="container navbar navbar-toggleable-md navbar-light fixed-top bg-faded">
-      <div class="container">
-       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    
+       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-        </button>
-
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+       </button>
+        <div style="margin: 1.2rem"></div>
+          <div class="collapse navbar-collapse" id="menu">
             <div class="navbar-nav">
             <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">About</a>
-            <a class="nav-item nav-link" href="#">Skills</a>
+            <a class="nav-item nav-link" href="#about">About</a>
+            <a class="nav-item nav-link" href="#skills">Skills</a>
             <!--<a class="nav-item nav-link" href="#">Experience</a>-->
-            <a class="nav-item nav-link" href="#">Portfolio</a>
-            <a class="nav-item nav-link" href="#">Contact</a>
+            <a class="nav-item nav-link" href="#portfolio">Portfolio</a>
+            <a class="nav-item nav-link" href="#message">Contact</a>
             <!--<a class="nav-item nav-link" href="#">Blog</a>-->
           </div>
-      </div>
+        </div>
+      
     </nav>
-    <br><br>
+   
+  
     <!--Header-->
-      <header id="bg-1" class="container">
-       <img id="profile" class="img-fluid rounded-circle animated bounceInDown" alt="Profile image of Sujeevan" src="https://s23.postimg.org/z3g1pbuq3/profile.png" width="30%" height="30%">
-       <h3 class="text-center animated slideInLeft">SUJEEVAN</h3>
-       <h5 class="text-center lead animated pulse">Web Developer and UI/UX Designer</h5>
-       <button class="btn btn-outline-secondary">
-         Download Resume
-       </button>
+    <header id="bg-1" class="container">
+      <img id="profile" class="img-fluid rounded-circle animated bounceInDown" alt="Profile image of Sujeevan" src="https://s23.postimg.org/z3g1pbuq3/profile.png" width="30%" height="30%">
+        <h3 id="name" class="text-center mt-3 animated slideInLeft">SUJEEVAN</h3>
+          <h5 id="title" class="text-center mt-4 lead animated pulse">Web Developer and Digital Marketer</h5>
+            <a href="" download="resume.pdf"><button class="btn btn-outline-secondary mt-3">Download Resume</button></a>
     </header>
 
     <!--About-->
@@ -90,7 +90,7 @@
       </div>
 
     <!--Skills-->
-      <div id="bg-2" class="container">
+      <div id="skills" class="container">
         <h3 class="text-center">TECHNICAL SKILLS</h3>
           <div class="container">
             <div class="row">
@@ -297,7 +297,7 @@
 </div>
 
   <!--Message-->
-  <div id="msg" class="container">
+  <div id="message" class="container">
     <h3 class="text-center heading">SHOOT A MESSAGE</h3>
 
       <form class="text-center"> 
@@ -320,12 +320,11 @@
           <textarea class="form-control" id="textarea" rows="5">Your message</textarea>
           
 
-         <div class="form-check mb-2 mr-sm-2 mb-sm-0">
-          <label class="form-check-label"> <input class="form-check-input" type="checkbox"> Remember me
-          </label>
+        <div class="form-check mb-2 mr-sm-2 mb-sm-0">
+          <label class="form-check-label"> <input class="form-check-input" type="checkbox"> Remember me </label>
         </div>
 
-          <button type="submit" class="btn btn-primary mb-3">Submit</button>
+          <button type="submit" class="btn btn-primary">Submit</button>
           </div>
       </div>
        

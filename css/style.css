@@ -8,19 +8,51 @@ body {
 }
 
 .navbar {
-	font-size: 1.1rem;
+	font-size: 1.3rem;
 	border-bottom: 2px solid #607D8B; 
 }
+
 
 #bg-1 {
   background-color: #00bcd4;
   text-align: center;
   padding: 1.0rem;
   color: #ffffff;
+ 
 }
+
+#profile{
+ margin-top: 5.0rem;
+}
+
 
 #profile {
 	padding: 0.8rem;
+	-webkit-animation-duration: 2s; 
+	-moz-animation-duration: 2s;
+	-ms-animation-duration: 2s;
+	-o-animation-duration: 2s;
+}
+
+#name {
+	-webkit-animation-duration: 2s;
+	-moz-animation-duration: 2s;
+	-ms-animation-duration: 2s;
+	-o-animation-duration: 2s;
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+	-ms-animation-delay: 1s;
+	-o-animation-delay: 1s;
+    
+}
+
+#title {
+    -webkit-animation-delay: 3s;
+    -moz-animation-delay: 3s;
+	-ms-animation-delay: 3s;
+	-o-animation-delay: 3s;
+	color: #ffffff;
+
 }
 
 #about {
@@ -32,9 +64,6 @@ header h3 {
 	color: #ffffff;
 }
 
-header h5 {
-	color: #000000;
-}
 
 .btn-outline-secondary {
 	margin-top: 0.5rem;
@@ -46,7 +75,7 @@ header h5 {
 	padding: 2rem 0.5rem;
 }
 
-#bg-2 h3 {
+#skills h3 {
 	color: #ffffff;
 	padding: 0.9rem 0;
 }
@@ -55,7 +84,7 @@ header h5 {
 	color: #00bcd4;
 }
 
-#bg-2 {
+#skills {
 	background-color: #00bcd4;
 }
 
@@ -72,8 +101,9 @@ header h5 {
 	border-radius: 10px;
 }
 
-#msg {
+#message {
 	background-color: #f7f7f7;
+	overflow: hidden;
 }
 
 /*Skills circles*/
