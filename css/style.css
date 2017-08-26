@@ -145,9 +145,3 @@ footer {
 	background-color: #607D8B;
 }
 
-/*Media Queries*/
- @media (max-width: 767px) {
-    .navbar .container {
-      width: 100%;
-    }
-  }
