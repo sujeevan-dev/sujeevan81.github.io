@@ -14,6 +14,7 @@ body {
 
 
 #bg-1 {
+  height: 100vh;
   background-color: #00bcd4;
   background: -webkit-linear-gradient(#00bcd4, rgba(3, 169, 244, 0.46)); 
   background: -o-linear-gradient(#00bcd4, rgba(3, 169, 244, 0.46)); 
