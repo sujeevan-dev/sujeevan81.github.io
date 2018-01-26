@@ -5,26 +5,27 @@ html {
 body {
   font-family: Montserrat, sans-serif;
   line-height: 1.8;
+	position: relative;
 }
 
 .navbar {
 	font-size: 1.3rem;
-	border-bottom: 2px solid #607D8B; 
+	border-bottom: 2px solid #607D8B;
 }
 
 
 #bg-1 {
   height: 100vh;
   background-color: #00bcd4;
-  background: -webkit-linear-gradient(#00bcd4, rgba(3, 169, 244, 0.46)); 
-  background: -o-linear-gradient(#00bcd4, rgba(3, 169, 244, 0.46)); 
-  background: -moz-linear-gradient(#00bcd4, rgba(3, 169, 244, 0.46)); 
+  background: -webkit-linear-gradient(#00bcd4, rgba(3, 169, 244, 0.46));
+  background: -o-linear-gradient(#00bcd4, rgba(3, 169, 244, 0.46));
+  background: -moz-linear-gradient(#00bcd4, rgba(3, 169, 244, 0.46));
   background: linear-gradient(#00bcd4, rgba(3, 169, 244, 0.46));
   text-align: center;
   padding: 1.0rem;
   color: #ffffff;
-   
- 
+
+
 }
 
 #profile{
@@ -34,7 +35,7 @@ body {
 
 #profile {
 	padding: 0.8rem;
-	-webkit-animation-duration: 2s; 
+	-webkit-animation-duration: 2s;
 	-moz-animation-duration: 2s;
 	-ms-animation-duration: 2s;
 	-o-animation-duration: 2s;
@@ -49,7 +50,7 @@ body {
     -moz-animation-delay: 1s;
 	-ms-animation-delay: 1s;
 	-o-animation-delay: 1s;
-    
+
 }
 
 #title {
@@ -145,4 +146,3 @@ footer h3 {
 footer {
 	background-color: #607D8B;
 }
-

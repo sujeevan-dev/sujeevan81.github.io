@@ -1,4 +1,4 @@
-/*Skills Circles*/ 
+/*Skills Circles*/
 
 //draw the doughnut
 var doughnutArray = [document.getElementById('doughnut1').getContext('2d'), document.getElementById('doughnut2').getContext('2d'), document.getElementById('doughnut3').getContext('2d'), document.getElementById('doughnut4').getContext('2d'),document.getElementById('doughnut5').getContext('2d'),document.getElementById('doughnut6').getContext('2d'),document.getElementById('doughnut7').getContext('2d'),document.getElementById('doughnut8').getContext('2d')];
@@ -38,7 +38,7 @@ function loadSkills1() {
     }
     al++;
   }
-  var sim = setInterval(progressSim, 20); //speed  	
+  var sim = setInterval(progressSim, 20); //speed
 }
 
 /*loadSkills2 function*/
@@ -265,15 +265,15 @@ window.onload = function() {
     loadSkills8();
   }
 
- 
+
 $('#title').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
   $(this).css({"color":"#607D8B", "font-size":"120%", "font-weight": "bold"});
 });
 
 //Smoothscroll
 $(function(){
-  $('a[href*="#"]:not([href="#"])').click(function(){
-      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname){ 
+  $('.navbar a, footer a[href="#mypage"]').click(function(){
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname){
         var target = $(this.hash);
         target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
         if (target.length) {
@@ -284,6 +284,6 @@ $(function(){
 
         }
       }
-    
+
     });
   });
