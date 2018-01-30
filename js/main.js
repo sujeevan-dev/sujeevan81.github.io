@@ -1,5 +1,4 @@
 /*Skills Circles*/
-
 //draw the doughnut
 var doughnutArray = [document.getElementById('doughnut1').getContext('2d'), document.getElementById('doughnut2').getContext('2d'), document.getElementById('doughnut3').getContext('2d'), document.getElementById('doughnut4').getContext('2d'),document.getElementById('doughnut5').getContext('2d'),document.getElementById('doughnut6').getContext('2d'),document.getElementById('doughnut7').getContext('2d'),document.getElementById('doughnut8').getContext('2d')];
 for (var i = 0; i < doughnutArray.length; i++){
