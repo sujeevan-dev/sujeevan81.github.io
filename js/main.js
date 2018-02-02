@@ -286,3 +286,9 @@ $(function(){
 
     });
   });
+
+$(document).ready(function () {
+  $(".nav-item, .nav-link a").click(function(event) {
+    $(".navbar-collapse").collapse('hide');
+  });
+});
