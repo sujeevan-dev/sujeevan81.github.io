@@ -97,8 +97,6 @@ $(function(){
       var firstCanvas = self.bars[0].querySelector( "canvas" );
       var firstProg = new Progress( firstCanvas );
       
-      
-      
       var timer = setInterval(function() {
         index++;
           
