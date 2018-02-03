@@ -1,270 +1,11 @@
-/*Skills Circles*/
-//draw the doughnut
-var doughnutArray = [document.getElementById('doughnut1').getContext('2d'), document.getElementById('doughnut2').getContext('2d'), document.getElementById('doughnut3').getContext('2d'), document.getElementById('doughnut4').getContext('2d'),document.getElementById('doughnut5').getContext('2d'),document.getElementById('doughnut6').getContext('2d'),document.getElementById('doughnut7').getContext('2d'),document.getElementById('doughnut8').getContext('2d')];
-for (var i = 0; i < doughnutArray.length; i++){
-  doughnutArray[i].lineWidth = 5; //thickness of the line
-  doughnutArray[i].fillStyle = '#eaeaea';
-  doughnutArray[i].strokeStyle = "#eaeaea";
-  doughnutArray[i].beginPath();
-  doughnutArray[i].arc(60, 60, 55, 4.72, 15, false); //.arc(x, y , radius, startAngle, endAngle, anticlockwise)
-  doughnutArray[i].stroke();
-}
+//navbar auto-collapse
+$(document).ready(function () {
+  $(".nav-item, .nav-link a").click(function(event) {
+    $(".navbar-collapse").collapse('hide');
+  });
+});
 
-  /*Load skills one function*/
-function loadSkills1() {
-  var ctx = document.getElementById('skill1').getContext('2d');
-  var al = 0;
-  var start = 4.72;
-  var cw = ctx.canvas.width;
-  var ch = ctx.canvas.height;
-  var diff;
-
-  function progressSim() {
-    diff = ((al / 100) * Math.PI * 2 * 10).toFixed(2); //change the arc by multiplying .. * Math.PI*2* --> 7.5=75, 5=50 etc.
-    ctx.clearRect(0, 0, cw, ch);
-    ctx.lineWidth = 5; //thickness of the line
-    ctx.fillStyle = '#000000';
-    ctx.strokeStyle = "#ffffff";
-    ctx.textAlign = 'center';
-    ctx.font = "30px Radley";
-    ctx.fillText(al + '%', cw * .5 + 2, ch * .5 + 8, cw);
-    ctx.beginPath();
-    ctx.arc(60, 60, 55, start, diff / 10 + start, false); //.arc(x, y , radius, startAngle, endAngle, anticlockwise)
-    ctx.stroke();
-    if (al >= 80) { // stop the recreation at your desired point, i.e change 100 to 75 if you need just 75%.
-      clearTimeout(sim);
-      // Add scripting here that will run when progress completes
-    }
-    al++;
-  }
-  var sim = setInterval(progressSim, 20); //speed
-}
-
-/*loadSkills2 function*/
-function loadSkills2() {
-  var ctx = document.getElementById('skill2').getContext('2d');
-  var al = 0;
-  var start = 4.72;
-  var cw = ctx.canvas.width;
-  var ch = ctx.canvas.height;
-  var diff;
-
-  function progressSim() {
-    diff = ((al / 100) * Math.PI * 2 * 10).toFixed(2); //change the arc by multiplying .. * Math.PI*2* --> 7.5=75, 5=50 etc.
-    ctx.clearRect(0, 0, cw, ch);
-    ctx.lineWidth = 5; //thickness of the line
-    ctx.fillStyle = '#000000';
-    ctx.strokeStyle = "#ffffff";
-    ctx.textAlign = 'center';
-    ctx.font = "30px Radley";
-    ctx.fillText(al + '%', cw * .5 + 2, ch * .5 + 8, cw);
-    ctx.beginPath();
-    ctx.arc(60, 60, 55, start, diff / 10 + start, false); //.arc(x, y , radius, startAngle, endAngle, anticlockwise)
-    ctx.stroke();
-    if (al >= 65) { // stop the recreation at your desired point, i.e change 100 to 75 if you need just 75%.
-      clearTimeout(sim);
-      // Add scripting here that will run when progress completes
-    }
-    al++;
-  }
-  var sim = setInterval(progressSim, 30); //speed
-}
-
-/* loadSkill3 function*/
-function loadSkills3() {
-  var ctx = document.getElementById('skill3').getContext('2d');
-  var al = 0;
-  var start = 4.72;
-  var cw = ctx.canvas.width;
-  var ch = ctx.canvas.height;
-  var diff;
-
-  function progressSim() {
-    diff = ((al / 100) * Math.PI * 2 * 10).toFixed(2); //change the arc by multiplying .. * Math.PI*2* --> 7.5=75, 5=50 etc.
-    ctx.clearRect(0, 0, cw, ch);
-    ctx.lineWidth = 5; //thickness of the line
-    ctx.fillStyle = '#000000';
-    ctx.strokeStyle = "#ffffff";
-    ctx.textAlign = 'center';
-    ctx.font = "30px Radley";
-    ctx.fillText(al + '%', cw * .5 + 2, ch * .5 + 8, cw);
-    ctx.beginPath();
-    ctx.arc(60, 60, 55, start, diff / 10 + start, false); //.arc(x, y , radius, startAngle, endAngle, anticlockwise)
-    ctx.stroke();
-    if (al >= 50) { // stop the recreation at your desired point, i.e change 100 to 75 if you need just 75%.
-      clearTimeout(sim);
-      // Add scripting here that will run when progress completes
-    }
-    al++;
-  }
-  var sim = setInterval(progressSim, 40); //speed
-}
-
-/* loadSkill4 function*/
-function loadSkills4() {
-  var ctx = document.getElementById('skill4').getContext('2d');
-  var al = 0;
-  var start = 4.72;
-  var cw = ctx.canvas.width;
-  var ch = ctx.canvas.height;
-  var diff;
-
-  function progressSim() {
-    diff = ((al / 100) * Math.PI * 2 * 10).toFixed(2); //change the arc by multiplying .. * Math.PI*2* --> 7.5=75, 5=50 etc.
-    ctx.clearRect(0, 0, cw, ch);
-    ctx.lineWidth = 5; //thickness of the line
-    ctx.fillStyle = '#000000';
-    ctx.strokeStyle = "#ffffff";
-    ctx.textAlign = 'center';
-    ctx.font = "30px Radley";
-    ctx.fillText(al + '%', cw * .5 + 2, ch * .5 + 8, cw);
-    ctx.beginPath();
-    ctx.arc(60, 60, 55, start, diff / 10 + start, false); //.arc(x, y , radius, startAngle, endAngle, anticlockwise)
-    ctx.stroke();
-    if (al >= 50) { // stop the recreation at your desired point, i.e change 100 to 75 if you need just 75%.
-      clearTimeout(sim);
-      // Add scripting here that will run when progress completes
-    }
-    al++;
-  }
-  var sim = setInterval(progressSim, 50); //speed
-
-}
-
-
-  /* loadSkill5 function*/
-function loadSkills5() {
-  var ctx = document.getElementById('skill5').getContext('2d');
-  var al = 0;
-  var start = 4.72;
-  var cw = ctx.canvas.width;
-  var ch = ctx.canvas.height;
-  var diff;
-
-  function progressSim() {
-    diff = ((al / 100) * Math.PI * 2 * 10).toFixed(2); //change the arc by multiplying .. * Math.PI*2* --> 7.5=75, 5=50 etc.
-    ctx.clearRect(0, 0, cw, ch);
-    ctx.lineWidth = 5; //thickness of the line
-    ctx.fillStyle = '#000000';
-    ctx.strokeStyle = "#ffffff";
-    ctx.textAlign = 'center';
-    ctx.font = "30px Radley";
-    ctx.fillText(al + '%', cw * .5 + 2, ch * .5 + 8, cw);
-    ctx.beginPath();
-    ctx.arc(60, 60, 55, start, diff / 10 + start, false); //.arc(x, y , radius, startAngle, endAngle, anticlockwise)
-    ctx.stroke();
-    if (al >= 60) { // stop the recreation at your desired point, i.e change 100 to 75 if you need just 75%.
-      clearTimeout(sim);
-      // Add scripting here that will run when progress completes
-    }
-    al++;
-  }
-  var sim = setInterval(progressSim, 50); //speed
-}
-
-  /* loadSkill6 function*/
-function loadSkills6() {
-  var ctx = document.getElementById('skill6').getContext('2d');
-  var al = 0;
-  var start = 4.72;
-  var cw = ctx.canvas.width;
-  var ch = ctx.canvas.height;
-  var diff;
-
-  function progressSim() {
-    diff = ((al / 100) * Math.PI * 2 * 10).toFixed(2); //change the arc by multiplying .. * Math.PI*2* --> 7.5=75, 5=50 etc.
-    ctx.clearRect(0, 0, cw, ch);
-    ctx.lineWidth = 5; //thickness of the line
-    ctx.fillStyle = '#000000';
-    ctx.strokeStyle = "#ffffff";
-    ctx.textAlign = 'center';
-    ctx.font = "30px Radley";
-    ctx.fillText(al + '%', cw * .5 + 2, ch * .5 + 8, cw);
-    ctx.beginPath();
-    ctx.arc(60, 60, 55, start, diff / 10 + start, false); //.arc(x, y , radius, startAngle, endAngle, anticlockwise)
-    ctx.stroke();
-    if (al >= 50) { // stop the recreation at your desired point, i.e change 100 to 75 if you need just 75%.
-      clearTimeout(sim);
-      // Add scripting here that will run when progress completes
-    }
-    al++;
-  }
-  var sim = setInterval(progressSim, 50); //speed
-}
-
-  /* loadSkill7 function*/
-function loadSkills7() {
-  var ctx = document.getElementById('skill7').getContext('2d');
-  var al = 0;
-  var start = 4.72;
-  var cw = ctx.canvas.width;
-  var ch = ctx.canvas.height;
-  var diff;
-
-  function progressSim() {
-    diff = ((al / 100) * Math.PI * 2 * 10).toFixed(2); //change the arc by multiplying .. * Math.PI*2* --> 7.5=75, 5=50 etc.
-    ctx.clearRect(0, 0, cw, ch);
-    ctx.lineWidth = 5; //thickness of the line
-    ctx.fillStyle = '#000000';
-    ctx.strokeStyle = "#ffffff";
-    ctx.textAlign = 'center';
-    ctx.font = "30px Radley";
-    ctx.fillText(al + '%', cw * .5 + 2, ch * .5 + 8, cw);
-    ctx.beginPath();
-    ctx.arc(60, 60, 55, start, diff / 10 + start, false); //.arc(x, y , radius, startAngle, endAngle, anticlockwise)
-    ctx.stroke();
-    if (al >= 20) { // stop the recreation at your desired point, i.e change 100 to 75 if you need just 75%.
-      clearTimeout(sim);
-      // Add scripting here that will run when progress completes
-    }
-    al++;
-  }
-  var sim = setInterval(progressSim, 50); //speed
-}
-
-  /* loadSkill8 function*/
-function loadSkills8() {
-  var ctx = document.getElementById('skill8').getContext('2d');
-  var al = 0;
-  var start = 4.72;
-  var cw = ctx.canvas.width;
-  var ch = ctx.canvas.height;
-  var diff;
-
-  function progressSim() {
-    diff = ((al / 100) * Math.PI * 2 * 10).toFixed(2); //change the arc by multiplying .. * Math.PI*2* --> 7.5=75, 5=50 etc.
-    ctx.clearRect(0, 0, cw, ch);
-    ctx.lineWidth = 5; //thickness of the line
-    ctx.fillStyle = '#000000';
-    ctx.strokeStyle = "#ffffff";
-    ctx.textAlign = 'center';
-    ctx.font = "30px Radley";
-    ctx.fillText(al + '%', cw * .5 + 2, ch * .5 + 8, cw);
-    ctx.beginPath();
-    ctx.arc(60, 60, 55, start, diff / 10 + start, false); //.arc(x, y , radius, startAngle, endAngle, anticlockwise)
-    ctx.stroke();
-    if (al >= 50) { // stop the recreation at your desired point, i.e change 100 to 75 if you need just 75%.
-      clearTimeout(sim);
-      // Add scripting here that will run when progress completes
-    }
-    al++;
-  }
-  var sim = setInterval(progressSim, 50); //speed
-}
-
-
-window.onload = function() {
-    loadSkills1();
-    loadSkills2();
-    loadSkills3();
-    loadSkills4();
-    loadSkills5();
-    loadSkills6();
-    loadSkills7();
-    loadSkills8();
-  }
-
-
+//Title Animation
 $('#title').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
   $(this).css({"color":"#607D8B", "font-size":"120%", "font-weight": "bold"});
 });
@@ -287,8 +28,94 @@ $(function(){
     });
   });
 
-$(document).ready(function () {
-  $(".nav-item, .nav-link a").click(function(event) {
-    $(".navbar-collapse").collapse('hide');
+//Animated Skills Circles
+
+(function() {
+  
+  var Progress = function( element ) {
+    
+    this.context = element.getContext( "2d" );
+    this.refElement = element.parentNode;
+    this.loaded = 0;
+    this.start = 4.72;
+    this.width = this.context.canvas.width;
+    this.height = this.context.canvas.height;
+    this.total = parseInt( this.refElement.dataset.percent, 10 );
+    this.timer = null;
+    
+    this.diff = 0;
+    
+    this.init();  
+  };
+  
+  Progress.prototype = {
+    init: function() {
+      var self = this;
+      self.timer = setInterval(function() {
+        self.run(); 
+      }, 10);
+    },
+    run: function() {
+      var self = this;
+      
+      self.diff = ( ( self.loaded / 100 ) * Math.PI * 2 * 10 ).toFixed( 2 );  
+      self.context.clearRect( 0, 0, self.width, self.height );
+      self.context.lineWidth = 10;
+      self.context.fillStyle = "#000";
+      self.context.strokeStyle = "#d30000";
+      self.context.textAlign = "center";
+      
+      self.context.fillText( self.loaded + "%", self.width * .5, self.height * .5 + 2, self.width );
+      self.context.beginPath();
+      self.context.arc( 35, 35, 30, self.start, self.diff / 10 + self.start, false );
+      self.context.stroke();
+      
+      if( self.loaded >= self.total ) {
+        clearInterval( self.timer );
+      }
+      
+      self.loaded++;
+    }
+  };
+  
+  var CircularSkillBar = function( elements ) {
+    this.bars = document.querySelectorAll( elements );
+    if( this.bars.length > 0 ) {
+      this.init();
+    } 
+  };
+  
+  CircularSkillBar.prototype = {
+    init: function() {
+      this.tick = 5;
+      this.progress();
+      
+    },
+    progress: function() {
+      var self = this;
+      var index = 0;
+      var firstCanvas = self.bars[0].querySelector( "canvas" );
+      var firstProg = new Progress( firstCanvas );
+      
+      
+      
+      var timer = setInterval(function() {
+        index++;
+          
+        var canvas = self.bars[index].querySelector( "canvas" );
+        var prog = new Progress( canvas );
+        
+        if( index == self.bars.length ) {
+            clearInterval( timer );
+        } 
+        
+      }, self.tick * 100);
+        
+    }
+  };
+  
+  document.addEventListener( "DOMContentLoaded", function() {
+    var circularBars = new CircularSkillBar( "#bars .bar" );
   });
-});
+  
+})();

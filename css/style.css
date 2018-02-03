@@ -21,8 +21,6 @@ body {
   text-align: center;
   padding: 1.0rem;
   color: #ffffff;
-
-
 }
 
 #profile{
@@ -110,14 +108,29 @@ header h3 {
 }
 
 /*Skills circles*/
-#doughnut1,#doughnut2,#doughnut3,#doughnut4,#doughnut5,#doughnut6,#doughnut7,#doughnut8 {
-  position: absolute;
+#bars {
+	margin: 2em auto;
+	max-width: 960px;
+	overflow: hidden;
 }
 
-#skill1,#skill2,#skill3,#skill4,#skill5,#skill6,#skill7,#skill8 {
-  position: relative;
+.bar {
+	float: left;
+	width: 20%;
+	text-align: center;
 }
 
+.bar h5 {
+	font-weight: normal;
+	margin: 0;
+}
+
+.bar-circle {
+	display: block;
+	margin: 0.7em auto;
+}
+
+/*Form*/
 .form-group {
 	margin: 0 auto;
 	max-width: 800px;
