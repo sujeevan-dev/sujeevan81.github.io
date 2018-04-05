@@ -4,5 +4,5 @@ This is my handcrafted portfolio using Bootstrap 4 which I have designed to show
 
 Visit: https://sujeevan81.github.io
 
-![GitHub Logo](img/Sujeevan's portfolio.png)
+![GitHub Logo](img/portfolio.png)
 ![alt](https://sujeevan81.github.io)
